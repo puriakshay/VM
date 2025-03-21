@@ -10,6 +10,6 @@ resource "azurerm_public_ip" "example" {
   allocation_method   = "Static"
 
   tags = {
-    environment = "Production"
+    environment = "Production ui"
   }
 }
